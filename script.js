@@ -35,7 +35,16 @@ for(var i = 1; i <= 50; i++){
      
 }
 
+// // or
 
+for(var i = 1; i <= 50; i++){
+  if(i % 2 === 0){
+    console.log(i + " (Even)")
+  }else{
+    console.log(i + " (Odd)")
+  }
+   
+}
 
 
 // Question 4
@@ -118,6 +127,8 @@ for (var i = 0; i < data.length; i++) {
 var student = data[i];
 console.log(`Name : ${student.name}, Age: ${student.age}, Class: ${student.class}`)
 } 
+
+
 
 
 
